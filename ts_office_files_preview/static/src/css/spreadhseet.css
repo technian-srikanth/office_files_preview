@@ -49,7 +49,7 @@
   margin: 0;
   padding: 0;
   border-collapse: separate;
-  border-spacing: 2;
+  border-spacing: 2px;
   background: #fff;
 }
 .x-spreadsheet-color-palette table td {
@@ -442,7 +442,7 @@
   white-space: nowrap;
   cursor: pointer;
   transition: all 0.3s;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 .x-spreadsheet-menu > li.active {
   background-color: #fff;
@@ -788,7 +788,7 @@ form fieldset select {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   background-clip: padding-box;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px;
 }
 .x-spreadsheet-toast {
   background-color: rgba(255, 255, 255, 0.85);
@@ -844,7 +844,7 @@ form fieldset select {
   display: inline-block;
 }
 .x-spreadsheet-icon .x-spreadsheet-icon-img {
-  background-image: url(58eaeb4e52248a5c75936c6f4c33a370.svg);
+  /*background-image: url(58eaeb4e52248a5c75936c6f4c33a370.svg);*/
   position: absolute;
   width: 262px;
   height: 444px;

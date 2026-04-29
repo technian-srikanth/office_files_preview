@@ -63,7 +63,7 @@ body:has(.o_doc_preview_dialog) .o_main_navbar {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 44px;
     background-color: black;
     width: 100%;
     padding: 2px 2px;
@@ -148,4 +148,24 @@ article > * {
 
 #pdf_container canvas {
     width: 100%;
+}
+
+.x-spreadsheet-scrollbar.horizontal {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
+.x-spreadsheet {
+    background: none !important;
+    height: 100vh;
+
+}
+
+.x-spreadsheet-table td {
+    border: 1px solid #e0e0e0;
+}
+
+.x-spreadsheet-table tr:first-child td {
+    background: #f5f5f5;
+    font-weight: bold;
 }
