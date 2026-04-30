@@ -3,7 +3,7 @@
     'version': '17.0',
     'depends': ['web', 'base', 'mail', ],
     'author': 'srikanth',
-    'description': """ CSV ,XLSX AND DOCX FILES PREVIEW IN CHATTER """,
+    'description': """ CSV ,XLSX ,PPTX AND  DOCX Attachments files preview """,
     'assets': {
         'web.assets_backend': [
             # preview docs
