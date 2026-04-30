@@ -104,7 +104,11 @@ if (!window._docPreviewClickAttached) {
             const sheets = [];
 
             data.sheets.forEach(sheet => {
-                const sheetRows = {len: sheet.rows.length};
+                const MIN_ROWS = 50;
+
+                const sheetRows = {
+                    len: Math.max(sheet.rows.length, MIN_ROWS)
+                };
 
                 sheet.rows.forEach((row, r) => {
                     const cells = {};
